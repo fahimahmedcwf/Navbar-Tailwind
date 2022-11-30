@@ -11,8 +11,8 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 
-<body class="bg-blue-500">
-    <nav class="max-w-[1580px] m-auto p-5 bg-white shadow md:flex md:items-center md:justify-between">
+<body class="bg-blue-500 h-[1500px]">
+    <nav class="max-w-[1580px] sticky top-0 m-auto p-5 bg-white md:flex md:items-center md:justify-between">
         <div class="flex justify-between items-center">
             <a href="index.html" class="text-2xl font-[Popp] cursor-pointer">
                 <img src="/logo.png" class="h-10 inline" alt="">CodePrism
@@ -21,7 +21,8 @@
                 <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
             </span>
         </div>
-        <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-0 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+        <ul
+            class="mt-8 md:mt-0 text-center md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-0 md:pl-0 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
             <li class="mx-4 my-6 md:my-0">
                 <a href="#" class="text-xl hover:text-red-500 duration-500">Home</a>
             </li>
@@ -37,8 +38,10 @@
             <li class="mx-4 my-6 md:my-0">
                 <a href="#" class="text-xl hover:text-red-500 duration-500">Contact</a>
             </li>
-            <button class="px-6 py-2 mx-4 bg-red-500 text-white font-[Poppins] rounded hover:bg-red-400">Get
-                Start</button>
+            <div class="mb-8 md:mb-0">
+                <button class="px-6 py-2 mx-4 bg-red-500 text-white font-[Poppins] rounded hover:bg-red-400">Get
+                    Start</button>
+            </div>
         </ul>
     </nav>
     <script>
